@@ -20,6 +20,7 @@ const HomePage = () => {
 
     const clickHandler = (userName: string) => {
         fetchRepos(userName);
+        setDropdown(false);
     };
 
     return (
